@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOHCFMWebsite", "OOHCFMWebsite\OOHCFMWebsite.csproj", "{23375801-C4D8-4A2A-A59F-7C0D0053772F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOHCFMWebsite.Tests", "OOHCFMWebsite.Tests\OOHCFMWebsite.Tests.csproj", "{123C6F52-F603-4B65-88FA-6142F3C8E144}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23375801-C4D8-4A2A-A59F-7C0D0053772F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23375801-C4D8-4A2A-A59F-7C0D0053772F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23375801-C4D8-4A2A-A59F-7C0D0053772F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23375801-C4D8-4A2A-A59F-7C0D0053772F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123C6F52-F603-4B65-88FA-6142F3C8E144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123C6F52-F603-4B65-88FA-6142F3C8E144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123C6F52-F603-4B65-88FA-6142F3C8E144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123C6F52-F603-4B65-88FA-6142F3C8E144}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6D4C9D5-3988-4DDD-BD21-4A95E7F7DCED}
+	EndGlobalSection
+EndGlobal
