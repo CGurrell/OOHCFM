@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOHCFMWebsite", "OOHCFMWebsite\OOHCFMWebsite.csproj", "{23375801-C4D8-4A2A-A59F-7C0D0053772F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOHCFMWebsite.Web", "OOHCFMWebsite\OOHCFMWebsite.Web.csproj", "{23375801-C4D8-4A2A-A59F-7C0D0053772F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOHCFMWebsite.Tests", "OOHCFMWebsite.Tests\OOHCFMWebsite.Tests.csproj", "{123C6F52-F603-4B65-88FA-6142F3C8E144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOHCFMWebsite.Domain", "OOHCFMWebsite.Domain\OOHCFMWebsite.Domain.csproj", "{C7E645F4-F7F3-4310-912B-484B0ECD3D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOHCFMWebsite.Data", "OOHCFMWebsite.Data\OOHCFMWebsite.Data.csproj", "{8CAFC1DA-7D80-4A9B-B310-6197A7A88F95}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "OOHCFMWebsite.Database", "OOHCFMWebsite.Database\OOHCFMWebsite.Database.sqlproj", "{6FAB12DF-55DA-446D-956C-673C597224FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,20 @@ Global
 		{123C6F52-F603-4B65-88FA-6142F3C8E144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{123C6F52-F603-4B65-88FA-6142F3C8E144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{123C6F52-F603-4B65-88FA-6142F3C8E144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E645F4-F7F3-4310-912B-484B0ECD3D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E645F4-F7F3-4310-912B-484B0ECD3D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E645F4-F7F3-4310-912B-484B0ECD3D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E645F4-F7F3-4310-912B-484B0ECD3D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAFC1DA-7D80-4A9B-B310-6197A7A88F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAFC1DA-7D80-4A9B-B310-6197A7A88F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAFC1DA-7D80-4A9B-B310-6197A7A88F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAFC1DA-7D80-4A9B-B310-6197A7A88F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FAB12DF-55DA-446D-956C-673C597224FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FAB12DF-55DA-446D-956C-673C597224FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FAB12DF-55DA-446D-956C-673C597224FD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6FAB12DF-55DA-446D-956C-673C597224FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FAB12DF-55DA-446D-956C-673C597224FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FAB12DF-55DA-446D-956C-673C597224FD}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

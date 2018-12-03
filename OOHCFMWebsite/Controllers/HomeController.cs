@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using OOHCFMWebsite.Data;
+using OOHCFMWebsite.Data.Interfaces;
 
 namespace OOHCFMWebsite.Controllers
 {
@@ -25,6 +27,13 @@ namespace OOHCFMWebsite.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult GetData()
+        {
+            ICFMDataRetriever ret = new CFMDataRetriever();
+            ret.ExtractJsonFilesFromZip("");
+            return View("Index");
         }
     }
 }
